@@ -1,5 +1,6 @@
-anoNascimento=int(input("Digite seu ano de nascimento"))
+numero=int(input("Digite um numero"))
 
-idade2032=2032-anoNascimento
+numeroFinal1=(numero-1)
+numeroFinal2=(numero+1)
 
-print("Sua idade em 2032 sera de " + str(idade2032))
+print("Seu antecessor eh " + str(numeroFinal1) + "e seu sucessor eh " + str(numeroFinal2))
